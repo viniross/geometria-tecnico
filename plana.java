@@ -46,9 +46,9 @@ public class plana extends geometria{
         return ((this.B + this.b) * h) / 2;
    }
    public double areaCirculo(){
-        return Math.PI * Math.pow(super.r, 2);
+        return super.PI * Math.pow(super.r, 2);
    }
    public double comprimentoCirculo(){
-        return (2 * Math.PI) * super.r;
+        return (2 * super.PI) * super.r;
    }
 }

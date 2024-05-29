@@ -4,25 +4,25 @@ public class espacial extends geometria{
     double k;
 
     public double areaBase(){
-        Math.PI * Math.pow(this.r, 2)
+        return super.PI * Math.pow(super.r, 2)
     }
     public double volumeCilindro(){
-        (Math.PI * Math.pow(this.r, 2)) * this.h
+        return (super.PI * Math.pow(super.r, 2)) * super.h
     }
     public double volumeCone(){
-        ((Math.PI * Math.pow(this.r, 2)) * this.h) / 3
+        return ((super.PI * Math.pow(super.r, 2)) * super.h) / 3
     }
     public double areaLateralPiramide(){
         
     }
     public double areaLateralCilindro(){
-
+        return (2 * super.PI) * super.r * super.h
     }
     public double areaLateralCone(){
-
+        return super.PI * super.r * this.g
     }
     public double volumeTronco(){
-
+        return (super.PI * super.h * ())
     }
     public double areaTotalPiramide(){
 
