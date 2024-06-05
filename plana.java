@@ -1,6 +1,6 @@
-import java.lang.math;
+import java.lang.Math;
 
-public class plana extends geometria{
+public class Plana extends Geometria{
    double a;
    double b;
    double c;
@@ -25,7 +25,7 @@ public class plana extends geometria{
         return this.c + this.b + this.d + this.B;
    }
    public double areaQuadrado(){
-        return this.a ^ 2;
+        return Math.pow(this.a, 2);
    }
    public double areaRetangulo(){
         return Math.pow(this.a, 2);

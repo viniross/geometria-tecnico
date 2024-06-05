@@ -1,4 +1,4 @@
-public class geometria extends menu{
+public class Geometria extends Menu{
     double r;
     double h;
     double a;
